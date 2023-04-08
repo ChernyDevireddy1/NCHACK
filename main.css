@@ -39,3 +39,19 @@ body {
 .active {
     background-color: rgb(115, 11, 11);
 }
+
+.space {
+  margin-right: 200px;
+}
+
+.submit {
+  background-color: black;
+  border-radius: 5px;
+  color: white;
+  padding: 7px 12px;
+  text-align: center;
+  text-decoration: none;/*gets rid of underline*/
+  display: inline-block;
+  font-size: 12px;
+  margin: 1em 0px;
+}
