@@ -64,12 +64,13 @@ h3 {
 
 #form {
   background-color: rgb(179, 78, 78);
-  text-align: center;
+  color: #fef3ea;
+  border-width: 2px 2px 2px 2px;
+  border-color: black;
 }
 
-::placeholder { 
-  color: #fef3ea;
-  
+::placeholder{
+  color:#fef3ea;
 }
 
 .submit {
