@@ -58,3 +58,7 @@ body {
   font-size: 12px;
   margin: 1em 0px;
 }
+
+.center {
+  text-align: center;
+}
