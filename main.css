@@ -1,6 +1,7 @@
 body {
     background: rgb(130, 17, 17);
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(229, 220, 216);
   }
   
   ul {
@@ -12,4 +13,9 @@ body {
   li {
     display: inline-block;
     margin-right: 20px;
+  }
+
+  a {
+    size: 30px;
+    color: rgb(220, 190, 17);
   }
