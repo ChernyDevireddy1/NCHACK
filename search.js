@@ -1,10 +1,14 @@
 $(document).ready(function() {
-    csv = "/Users/SumaVM/Documents/NCHACK/files/Metro_invt_fs_uc_sfrcondo_sm_month.csv";
+    var csv = "../downloads/Metro_invt_fs_uc_sfrcondo_sm_month";
     // var data = $.csv.toArrays(csv);
     // console.log("data:", data)
+    var myForm = document.getElementById("form"); // Added missing element with ID "form"
+
     myForm.addEventListener("submit", function (e) {
         e.preventDefault();
         const input = csvFile.files[0];
+       // const input = myForm.querySelector('input[type="file"]').files[0]; // Replaced "csvFile" with "myForm.querySelector('input[type="file"]')"
+
         const reader = new FileReader();
         reader.onload = function (e) {
            const text = e.target.result;
