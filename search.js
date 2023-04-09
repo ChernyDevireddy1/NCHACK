@@ -1,4 +1,30 @@
 $(document).ready(function() {
+    console.log("hi");
+    myfunc();
+    console.log("bye");
+});
+
+function myfunc (){
+    const filename = "http://github.com/ChernyDevireddy1/NCHACK/blob/main/files/Metro_invt_fs_uc_sfrcondo_sm_month.csv"; // replace with direct link to your desired CSV file
+    console.log("start");
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', filename);
+    console.log("here");
+    xhr.onload = function() {
+        if (xhr.readyState === 4 && xhr.status === 200) {
+            // Parse CSV data
+            const parsedData = Papa.parse(xhr.responseText, { header: true });
+            
+            console.log(parsedData.data); // Access parsed data as an array of objects
+        }
+    };
+    xhr.send(null);
+    console.log("end");
+}
+
+
+
+/*$(document).ready(function() {
   const filename = "http://github.com/ChernyDevireddy1/NCHACK/blob/main/files/Metro_invt_fs_uc_sfrcondo_sm_month.csv"; // replace with your desired filename
 
   var data;
@@ -51,4 +77,4 @@ $(document).ready(function() {
     //     };
     //     reader.readAsText(input);
     //  });
-});
+});*/
