@@ -7,7 +7,64 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
+<header>
+  <img id="logo" src="/assets/Gold Black Modern Real Estate Logo (1).jpeg" alt="logo_yuh">
+  <nav>
+    <ul>
+      <li><a href="home.html" class="button active">Home</a></li>
+      <li><a [routerLink]="['/search']" routerLinkActive="active" ariaCurrentWhenActive="page">Search</a></li>
+      <li><a href="trends.html" class="button">Trends</a></li>
+    </ul>
+  </nav>
+</header>
 
+<h2>Economics Track</h2>
+<body>
+  <h3>
+    Our Purpose
+  </h3>
+  <p>
+    • We aim to reduce the time it takes for investors and individuals to look for properties in a more efficient way.<br>
+    • The data source we will be using is Zillow. <br>
+    • The goal of our application is that we want to make invensting in Real Estate easier and efficient.
+  </p>
+
+  <h3>
+    Future Modifications
+  </h3>
+  <p>
+    • In the future, we plan to pull data from more than just Zillow.<br>
+    • We also want to make this feature easier to update and import the data into for anyone to use.
+  </p>
+
+  <h3>
+    About Us
+  </h3>
+  <p>
+    • We are 2 undergrad seniors from UNC Charlotte majoring in Computer Science with concentrations in Data Sceince and Software Systems and Networks.
+  </p>
+
+  <h3>
+    Contact
+  </h3>
+  <div>
+    Please place any suggestions and/or feedback here:
+    <form>
+      <label for="feedback"></label><br>
+      <textarea id="form" name="freeform" rows="4" cols="50" placeholder="Enter text here..."></textarea>
+      <br><input type="submit" value="Submit" class="submit">
+    </form><br>
+  </div>
+
+
+</body>
+
+
+<router-outlet></router-outlet>
+
+<footer>
+  Developed by Cherny Devireddy & Suma Valli Mahavadi on April 8th-9th 2023
+</footer>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
@@ -16,5 +73,3 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<router-outlet></router-outlet>

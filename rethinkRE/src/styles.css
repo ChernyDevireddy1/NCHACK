@@ -1,1 +1,113 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background: #a82f2f;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #fef3ea;
+}
+
+#logo{
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.button {
+  background-color: black;
+  border-radius: 5px;
+  color: #fef3ea;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;/*gets rid of underline*/
+  display: inline-block;
+  font-size: 15px;
+  margin: 1em 0px;
+}
+
+.button:hover {
+  background-color: rgb(115, 11, 11);
+}
+
+.active {
+  background-color: rgb(115, 11, 11);
+}
+
+.space {
+margin-right: 100px;
+}
+
+h2{
+text-align: center;
+}
+
+h3 {
+background-color: rgb(179, 78, 78);
+border-radius: 5px;
+color: #fef3ea;
+padding: 15px 32px;
+text-align: center;
+margin: #a82f2f;
+margin-left: 200px;
+margin-right: 200px;
+border:#a82f2f;
+}
+
+#form {
+background-color: rgb(179, 78, 78);
+color: #fef3ea;
+border-width: 2px 2px 2px 2px;
+border-color: black;
+}
+
+::placeholder{
+color:#fef3ea;
+}
+
+.submit {
+background-color: black;
+border-radius: 5px;
+color: #fef3ea;
+padding: 7px 12px;
+text-align: center;
+text-decoration: none;/*gets rid of underline*/
+display: inline-block;
+font-size: 12px;
+margin: 1em 0px;
+}
+
+.center {
+text-align: center;
+}
+
+p {
+margin-left: 200px;
+margin-right: 200px;
+text-align: center;
+}
+
+select {
+width:170px;
+text-align: center;
+}
+
+label{
+color: #fef3ea;
+}
+
+footer{
+text-align: center;
+color: rgb(57, 53, 53);
+font-size: 13px;
+}
