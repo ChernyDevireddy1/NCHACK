@@ -8,6 +8,17 @@ The problem we are trying to solve is that when real estate investors try to loo
 
 As mentioned above, the housing/real estate market today is currently very difficult to handle. Prices of properties are on the rise, and with the current socio-economic situation, job market, and other factors, North Carolina is becoming a hot spot for many people to move to. Along with the rise in real estate, investing in different areas such as stocks, crypto or the real estate market has become increasingly popular, but the current resources are not able to catch up with the rapid evolution of investing, and many young people don’t know the smartest way to invest. Our solution to this problem is our website  **_rethinkRE_**, or rethink Real Estate. Our goal with this product is to help customers invest smartly in the real estate market. Our product helps the user find good properties in a given area, show their price points, locations, ratings, and trends of the given properties, and show the trends of the property market of a given city over a couple of years. rethinkRE provides this financial information in order to give the user a better understanding of what is available and what properties might be a good investment.
 
+## How does it work?
+
+Take a look at our demo to see what our app can do!
+Our Youtube Link: 
+[rethinkRE](https://youtu.be/7whMK-ZZXXk)
+
+<video src="https://user-images.githubusercontent.com/61363761/230778543-4bb83a6e-cb67-4f4d-8d86-5f02fbd7a960.mp4" controls="controls" style="max-width: 730px;">
+</video>
+
+
+
 
 ## How did we do it?
 
