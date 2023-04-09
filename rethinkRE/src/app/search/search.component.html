@@ -10,22 +10,22 @@
   <h2>Search</h2>
   <form id="form" class="format">
     <label for="prop">Type of Property:</label>
-    <select name="prop" id="form" class="space">
+    <select name="prop" #prop id="form" class="space" (change)="changeProp(prop.value)">
       <option disabled selected>Choose</option>
-      <option value="residential">Residential</option>
-      <option value="commercial">Commercial</option>
-      <option value="industrial">Industrial</option>
-      <option value="rawland">Raw Land</option>
-      <option value="specialuse">Special Use</option>
+      <option value="Residential">Residential</option>
+      <option value="Commercial">Commercial</option>
+      <option value="Industrial">Industrial</option>
+      <option value="Raw Land">Raw Land</option>
+      <option value="Special Use">Special Use</option>
     </select>
     <label for="zipcode">Zipcode:</label>
     <input type="text" id="form" name="zipcode" class="search" placeholder="12345"><br>
     <input type="button" class="submit" id="submit" value="Submit" (click)="getMap()">
   </form>
-  <p class="center">
+  <div class="center">
     <!--<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d104190.59469267109!2d-80.80520393999278!3d35.307072669417366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1shouses%20for%20sale%20in%20charlotte%20nc!5e0!3m2!1sen!2sus!4v1681021769650!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
       <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3255.9552699376427!2d-80.735164!3d35.3070929!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1680979915363!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+      <p id="prices"></p>
     <em></em>
-    </p>
+    </div>
 </body>
