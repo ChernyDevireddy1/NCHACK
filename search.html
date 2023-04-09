@@ -4,6 +4,7 @@
   <head>
     <link rel="stylesheet" href="main.css">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/1.0.21/jquery.csv.js"></script>
     <script src="search.js"></script>
   </head>
 
@@ -19,7 +20,7 @@
       </nav>
     </header>
     <h2>Search</h2>
-    <form class="center">
+    <form id="form" class="center">
       <label for="prop">Type of Property:</label>
       <select name="prop" id="form" class="space">
         <option disabled selected>Choose</option>
@@ -31,7 +32,7 @@
       </select>
       <label for="zipcode">Zipcode:</label>
       <input type="text" id="zipcode" name="zipcode" placeholder="12345"><br>
-      <input type="button" class="button" value="Submit">
+      <input type="submit" class="submit" id="submit" value="Submit" (click)="readCSVFile()">
     </form> 
     <p class="center">
       <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3255.9552699376427!2d-80.735164!3d35.3070929!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1680979915363!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
