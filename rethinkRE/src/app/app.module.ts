@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { SearchComponent } from './search/search.component';
 import { TrendsComponent } from './trends/trends.component';
 import { HomeComponent } from './home/home.component';
+import { HttpClientModule } from '@angular/common/http';
+import { PapaParseParser } from 'ngx-papaparse';
 
 @NgModule({
   declarations: [
@@ -16,6 +18,7 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
