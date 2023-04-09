@@ -48,7 +48,7 @@ li {
 margin-right: 100px;
 }
 
-h2{
+h2 {
 text-align: center;
 }
 
@@ -134,4 +134,8 @@ select {
   padding:150px;
   border-radius:10px;
   margin-left: 10px;
+}
+
+div {
+  text-align: center;
 }
